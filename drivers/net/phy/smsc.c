@@ -107,6 +107,13 @@ static irqreturn_t smsc_phy_handle_interrupt(struct phy_device *phydev)
 
 static int smsc_phy_config_init(struct phy_device *phydev)
 {
+	//Change autoneg from on to off {AUTONEG_(ENABLE, DISABLE)}
+	phydev->autoneg = AUTONEG_DISABLE;
+	//Change link speed {SPEED_(10,100,1000)}
+	phydev->speed = SPEED_100;
+	//Change duplex {DUPLEX_(HALF,FULL)}
+	phydev->duplex = DUPLEX_FULL;
+	
 	struct smsc_phy_priv *priv = phydev->priv;
 	int rc;
 

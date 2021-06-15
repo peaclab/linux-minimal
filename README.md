@@ -16,6 +16,11 @@ Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
 
+## Prereqs
+``` 
+sudo apt install bison flex
+```
+
 ## At the beginning of every session
 Run the following commands to set up ARM architecture 
 ```

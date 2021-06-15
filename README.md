@@ -19,7 +19,7 @@ the problems which may result by upgrading your kernel.
 ## At the beginning of every session
 Run the following commands to set up ARM architecture 
 ```
-cd /preconfig_scripts
+cd preconfig_scripts
 chmod +x setup_environment.sh 
-sudo ./setup_environment.sh 
+./setup_environment.sh 
 ``` 

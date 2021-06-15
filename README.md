@@ -17,4 +17,4 @@ requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
 
 ## At the beginning of every session
-Run ./environment.sh to set up ARM architecture 
+Run ./preconfig_scripts/setup_environment.sh to set up ARM architecture 

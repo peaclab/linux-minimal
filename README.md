@@ -18,8 +18,7 @@ the problems which may result by upgrading your kernel.
 
 ## Prereqs
 ``` 
-sudo apt install gcc-arm-linux-gnueabihf
-sudo apt install bison flex
+sudo apt install libssl-dev gcc-arm-linux-gnueabihf bison flex
 ```
 
 ## At the beginning of every session

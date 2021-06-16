@@ -24,7 +24,6 @@ sudo apt install libssl-dev gcc-arm-linux-gnueabihf bison flex
 ## At the beginning of every session
 Run the following commands to set up ARM architecture 
 ```
-cd preconfig_scripts
-chmod +x setup_environment.sh 
-./setup_environment.sh 
+export CROSS_COMPILE=arm-linux-gnueabihf-
+export ARCH=arm
 ``` 

@@ -5,9 +5,8 @@
 sudo apt install libssl-dev gcc-arm-linux-gnueabihf bison flex
 ```
 
-## At the beginning of every session
-Run the following commands to set up ARM architecture 
+## To generate a bzImage run
 ```
-export CROSS_COMPILE=arm-linux-gnueabihf-
-export ARCH=arm
-``` 
+make ARCH=x86_64 x86_64_defconfig
+make ARCH=x868_64 -j20 bzImage
+```

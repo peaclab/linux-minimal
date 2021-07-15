@@ -13,6 +13,7 @@ make ARCH=x868_64 -j20 bzImage
 
 
 ### Start KVM
+```
 kvm -vga none -nographic -kernel 'arch/x86_64/boot/bzImage'  -hda 'rootfs.ext2'  -append "root=/dev/sda console=ttyS0"
-
+```
 
